@@ -29,11 +29,11 @@
   width: 100%;
   padding: 1.5rem 2rem;
   position: fixed;
-  border-bottom: 1.5px solid var(--primaryColor);
-  background: whitesmoke;
-  backdrop-filter: blur(8px);
-  gap: 1.5rem;
+  border-bottom: 1.5px solid rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(5px);
 
+  gap: 1.5rem;
   z-index: 1000;
 
   .logoDiv {
