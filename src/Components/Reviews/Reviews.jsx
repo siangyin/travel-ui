@@ -1,5 +1,7 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { AiFillStar } from "react-icons/ai"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 import "./Reviews.css"
 
@@ -12,6 +14,10 @@ const users = [
 ]
 
 const Reviews = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
   return (
     <div className="review section container">
       <div className="secContainer grid">
