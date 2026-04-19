@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700;900&display=swap");
 :root {
-  --primaryColor: hsl(14, 90%, 53%);
-  --primaryColorLight: hsl(14, 96%, 91%);
+  --primaryColor: #fb5607;
+  --primaryColorLight: #ffbe0b;
   --bgColor: hsl(0, 0%, 100%);
   --formColor: hsl(20, 42%, 87%);
   --whiteColor: hsl(0, 0%, 100%);
@@ -20,7 +20,7 @@
 }
 
 .footer {
-  background: var(--primaryColorLight);
+  background: var(--blackColor);
   padding: 2rem 0;
 }
 .footer .secContainer {
@@ -30,7 +30,7 @@
 }
 .footer .secContainer .logoDiv .footerLogo {
   display: flex;
-  color: var(--blackColor);
+  color: var(--whiteColor);
   font-weight: 500;
   cursor: pointer;
   align-items: center;
@@ -39,8 +39,8 @@
 }
 .footer .secContainer .logoDiv .icon {
   font-size: 25px;
-  -moz-columns: var(--blackColor);
-       columns: var(--blackColor);
+  -moz-columns: var(--whiteColor);
+       columns: var(--whiteColor);
 }
 .footer .secContainer .socials {
   gap: 0.5rem;
@@ -64,7 +64,7 @@
 }
 .footer .secContainer .footerLinks .linkTitle {
   padding-bottom: 0.5rem;
-  color: var(--blackColor);
+  color: var(--whiteColor);
   font-weight: 700;
 }
 .footer .secContainer .footerLinks li:hover {
@@ -76,7 +76,7 @@
 .footer .secContainer .footerLinks a,
 .footer .secContainer .footerLinks .phone,
 .footer .secContainer .footerLinks .email {
-  color: var(--blackColor);
+  color: var(--whiteColor);
   font-size: 13px;
   font-weight: 500;
 }
